@@ -9,6 +9,19 @@ body{
 	background-color: #fdfcfc;
 	font-family:Arial, Helvetica, sans-serif;
 }
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
 
 h1,h2,h3{
 	font-family: "Champagne & Limousines", "Champagne & Limousines Bold";
@@ -34,4 +47,192 @@ h2{
 	font-weight:normal;
 	letter-spacing:0.01em;
 	text-transform:uppercase;
+}
+
+p{
+	line-height:1.5em;
+	padding-bottom:1em;
+}
+
+.line{
+	height:1px;
+	background-color:#cb9ee7;
+	border-bottom:1px solid #6f6f6f;
+	margin:1em 0;
+	overflow:hidden;
+}
+
+div.article .line{
+	background-color:#cb9ee7;
+	border-bottom-color:#6f6f6f;
+	margin:1.3em 0;
+}
+
+div.footer .line{
+	margin:1em 0;
+}
+
+div.nav{
+	background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+	padding:0 5px;
+	position:absolute;
+	float: right;
+	margin-left: 400px;
+	top: 75px;
+	border:1px solid #f8f8f8;
+
+	-moz-box-shadow:0 1px 1px #cb9ee7;
+	-webkit-box-shadow:0 1px 1px #cb9ee7;
+	box-shadow:0 1px 1px #cb9ee7;
+}
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+div.nav ul li{
+	display:inline;
+}
+
+div.nav ul li a,
+div.nav ul li a:visited{
+	color:#565656;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-weight:normal;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-transform:uppercase;
+}
+
+div.nav ul li a:hover{
+	text-decoration:none;
+	background-color:#f0f0f0;
+}
+
+div.nav, div.article, div.nav ul li a,div.figure{
+	/* Applying CSS3 rounded corners: */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+#page{
+	width:960px;
+	margin:0 auto;
+}
+
+div.article{
+	background-color:#d8d6d6;
+	margin:3em 0;
+	padding:20px;
+}
+
+div.figure{
+	border:3px solid #6f6f6f;
+	float:right;
+	height:300px;
+	margin-left:15px;
+	overflow:hidden;
+	width:500px;
+}
+
+
+div.figure:hover{
+	-moz-box-shadow:0 0 2px #6f6f6f;
+	-webkit-box-shadow:0 0 2px #6f6f6f;
+	box-shadow:0 0 2px #6f6f6f;
+}
+
+div.figure img{
+	margin-left:-60px;
+}
+
+div.portfolio {
+	border:3px solid #6f6f6f;
+	float:right;
+	height:300px;
+	margin-left:15px;
+	overflow:hidden;
+	width:500px;
+}
+
+div.intern {
+	border:3px solid #6f6f6f;
+	float:right;
+	height:300px;
+	margin-left:15px;
+	overflow:hidden;
+	width:500px;
+}
+
+div.work {
+	border:3px solid #6f6f6f;
+	float:right;
+	height:300px;
+	margin-left:15px;
+	overflow:hidden;
+	width:500px;
+}
+
+div.blog {
+	border:3px solid #6f6f6f;
+	float:right;
+	height:300px;
+	margin-left:15px;
+	overflow:hidden;
+	width:500px;
+}
+
+div.footer{
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+}
+
+
+div.footer p{
+	margin-bottom:-2.5em;
+	position:relative;
+}
+
+div.footer a,div.footer a:visited{
+	color:#cb9ee7;
+	background-color:#d8d6d6;
+	display:block;
+	padding:2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+div.footer a:hover{
+	text-decoration:none;
+	background-color:#6f6f6f;
+}
+
+div.footer a.up{
+	float:right;
+}
+div.footer a.by{
+	float:left;
+
+}
+.socialicons {
+   clear:both;
+}
+.socialicons img {
+   clear: both;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 40x;
+   width: 40px;
+   float:none;
 }
